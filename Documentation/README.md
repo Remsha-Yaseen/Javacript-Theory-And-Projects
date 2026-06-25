@@ -6,7 +6,7 @@ This repository is structured into logical modules tracking my progress through 
 
 ### 🔹 Module 1: JavaScript Fundamentals
 *Core building blocks, basic syntax, and control flows.*
-  * [variables-datatype.md](./variables-datatype.md) — Understanding data declarations, scope (`let`, `const`), and string methods.
+  * [variables-datatype.md](./variables-datatype.md) — Understanding variables, primitive/non-primitive data types, syntax rules, and string manipulation.
   * [strings.md](./strings.md) -
   * `booleans-numbers.js` — Working with logical operators, truthy/falsy values, and mathematical computations.
   * `conditionals-loops.js` — Managing code execution branches using `if/else`, `switch`, and iteration loops (`for`, `while`).
