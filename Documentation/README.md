@@ -10,7 +10,7 @@ This repository is structured into logical modules tracking my progress through 
   * [strings.md](./strings.md) -string properties, UTF-16 character encoding, and essential manipulation methods.
 
   
-  * `booleans-numbers.js` — Working with logical operators, truthy/falsy values, and mathematical computations.
+  * [Math-operators.md](./Math-operators.md) — Working with logical operators, truthy/falsy values, and mathematical computations.
   * `conditionals-loops.js` — Managing code execution branches using `if/else`, `switch`, and iteration loops (`for`, `while`).
 
 ### 🔹 Module 2: Core Data Structures & Functions
