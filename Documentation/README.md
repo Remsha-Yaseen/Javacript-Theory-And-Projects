@@ -11,7 +11,7 @@ This repository is structured into logical modules tracking my progress through 
 
   
   * [Math-operators.md](./Math-operators.md) — Working with logical operators, truthy/falsy values, and mathematical computations.
-  * `conditionals-loops.js` — Managing code execution branches using `if/else`, `switch`, and iteration loops (`for`, `while`).
+  * [Conditionals-loops.md](./Conditionals-loops.md) — Managing code execution branches using `if/else`, `switch`, and iteration loops (`for`, `while`).
 
 ### 🔹 Module 2: Core Data Structures & Functions
 *Organizing data and writing reusable blocks of code.*
