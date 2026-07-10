@@ -1,7 +1,5 @@
 
 
-
-
 // User Story 1 & 2: Adds 5 and 10 to produce 15
 const firstResult = 5 + 10;
 
