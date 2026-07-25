@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 // 1. Check if a word is a palindrome (Case-Insensitive)
 function isPalindrome(word) {
   if (typeof word !== "string") return false;
