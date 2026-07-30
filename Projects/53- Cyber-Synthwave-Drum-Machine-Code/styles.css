@@ -1,0 +1,212 @@
+
+
+/* Reset & Theme Variables */
+:root {
+  --bg-color: #0b0c10;
+  --panel-bg: rgba(26, 29, 38, 0.85);
+  --neon-cyan: #00f2fe;
+  --neon-pink: #ff007f;
+  --neon-yellow: #fefe00;
+  --text-color: #c5c6c7;
+  --pad-off: #1f2833;
+  --font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(255, 0, 127, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(0, 242, 254, 0.15) 0px, transparent 50%);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Drum Machine Container */
+#drum-machine {
+  background: var(--panel-bg);
+  border: 3px solid #1f2833;
+  border-image: linear-gradient(135deg, var(--neon-pink), var(--neon-cyan)) 1;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
+              0 0 20px rgba(0, 242, 254, 0.15);
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  backdrop-filter: blur(10px);
+}
+
+/* Left Side: Pads Grid */
+#pad-bank {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  flex: 1.2;
+}
+
+/* Individual Drum Pads */
+.drum-pad {
+  background: var(--pad-off);
+  border: 2px solid #334155;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  height: 90px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.1s ease;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* Assigning unique neon border patterns to the keys */
+.drum-pad:nth-child(3n+1) { border-color: var(--neon-pink); }
+.drum-pad:nth-child(3n+2) { border-color: var(--neon-cyan); }
+.drum-pad:nth-child(3n+3) { border-color: var(--neon-yellow); }
+
+/* Hover states */
+.drum-pad:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+/* JavaScript active glow triggers */
+.drum-pad.active {
+  transform: scale(0.95);
+}
+
+.drum-pad:nth-child(3n+1).active {
+  background: var(--neon-pink);
+  color: #000;
+  box-shadow: 0 0 20px var(--neon-pink);
+}
+.drum-pad:nth-child(3n+2).active {
+  background: var(--neon-cyan);
+  color: #000;
+  box-shadow: 0 0 20px var(--neon-cyan);
+}
+.drum-pad:nth-child(3n+3).active {
+  background: var(--neon-yellow);
+  color: #000;
+  box-shadow: 0 0 20px var(--neon-yellow);
+}
+
+/* Right Side Controls Panel */
+.controls-container {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 2px dashed #1f2833;
+  padding-left: 30px;
+}
+
+.logo-area {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.logo-area h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.logo-area p {
+  font-size: 11px;
+  color: var(--neon-pink);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Simulated LED Segment Display Box */
+.display-wrapper {
+  background-color: #050508;
+  border: 2px solid #1f2833;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#display {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--neon-cyan);
+  text-shadow: 0 0 8px var(--neon-cyan);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  min-height: 20px;
+}
+
+/* Master Volume Slider */
+.volume-slider {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.volume-slider label {
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #4f5e71;
+}
+
+.volume-slider input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  background: #1f2833;
+  border-radius: 3px;
+  outline: none;
+}
+
+.volume-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--neon-pink);
+  box-shadow: 0 0 8px var(--neon-pink);
+  cursor: pointer;
+}
+
+/* Responsive adjustments for mobile/smaller screens */
+@media (max-width: 768px) {
+  #drum-machine {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .controls-container {
+    border-left: none;
+    border-top: 2px dashed #1f2833;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .drum-pad {
+    height: 75px;
+    font-size: 20px;
+  }
+}
+
