@@ -1,18 +1,5 @@
 
 
-
-
-
-
-
-
- 
-
-
-
-
-
-
 function permuteString(str, prefix = "", results = []) {
   if (str.length === 0) {
     if (!results.includes(prefix)) {
