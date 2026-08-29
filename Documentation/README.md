@@ -58,4 +58,6 @@ These standalone milestone applications showcase the collective practical applic
 3. **`03-drum-machine/`** — Developed during the *Audio/Video* section to control sound pipelines using event triggers.
 4. **`04-voting-system/`** — Created during the *Maps and Sets* section to manage structural tallies dynamically.
 5. **`05-bank-account-manager/`** — Engineered during the *Classes* module to run a secure programmatic account manager simulation.
-6. **`06-weather-app/`** — Developed during the *Asynchronous JS* stage to process exterior API data payloads inside a clean dashboard interface.
+6. **`06-weather-app/`** — Developed during the *Asynchronous JS* stage to process exterior API data payloads inside a clean dashboard interface......
+
+7. 
