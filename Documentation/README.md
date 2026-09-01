@@ -8,7 +8,7 @@ This repository is structured into logical modules tracking my progress through 
 *Core building blocks, basic syntax, and control flows.*
   * [variables-datatype.md](./variables-datatype.md) — Understanding variables, primitive/non-primitive data types, syntax rules, and string manipulation.
   * [strings.md](./strings.md) -string properties, UTF-16 character encoding, and essential manipulation methods.
-  *  [Fundamentals.md](./Jundamentals.md) — Review of string/number constructors, naming conventions, closures, hoisting, memory management, and ES modules.
+  *  [Fundamentals.md](./Fundamentals.md) — Review of string/number constructors, naming conventions, closures, hoisting, memory management, and ES modules.
 
   
   * [Math-operators.md](./Math-operators.md) — Working with logical operators, truthy/falsy values, and mathematical computations.
