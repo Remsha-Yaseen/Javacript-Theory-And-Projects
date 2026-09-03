@@ -17,6 +17,7 @@ This repository is structured into logical modules tracking my progress through 
 ### 🔹 Module 2: Core Data Structures & Functions
 
   * [Functions.md](./Functions.md) — Declaring basic functions, parameters, return statements, and arrow syntax.
+  * [Higher-order-functions.md](Higher-order-functions.md) - Mastering callback functions, higher-order array methods (`map`, `filter`, `reduce`), method chaining, sorting, and test methods (`every`, `some`). 
   * [Arrays.md](./Arrays.md) — Managing ordered lists, basic indexing, and fundamental array manipulation.
   * [Objects.md](./Objects.md) — Structuring data using key-value pairs, accessing properties, and method definitions.
   * `maps-sets.js` — Working with advanced modern collections for unique values and keyed data.
