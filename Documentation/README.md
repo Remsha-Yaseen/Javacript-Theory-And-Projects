@@ -24,7 +24,10 @@ This repository is structured into logical modules tracking my progress through 
 
 ### 🔹 Module 3: DOM Manipulation & Web APIs
 *Connecting JavaScript with the browser UI to create interactive structures.*
-* **Folder/File Name:** `03-dom-and-apis/`
+
+* [dom-manipulation-and-apis.md](./dom-manipulation-and-apis.md) — Comprehensive guide on selectors, node modifications, event listeners, bubbling, animation APIs, timers, and modals.
+
+
   * `dom-events.js` — Selecting HTML nodes, modifying element styles, and handling user triggers (clicks, inputs).
   * `accessibility.js` — Ensuring script-driven UI components remain keyboard-navigable and screen-reader friendly.
   * `audio-video-events.js` — Controlling media elements dynamically through background scripts and events.
