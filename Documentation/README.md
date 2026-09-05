@@ -26,6 +26,7 @@ This repository is structured into logical modules tracking my progress through 
 *Connecting JavaScript with the browser UI to create interactive structures.*
 
 * [dom-manipulation-and-apis.md](./dom-manipulation-and-apis.md) — Comprehensive guide on selectors, node modifications, event listeners, bubbling, animation APIs, timers, and modals.
+* * [accessibility.md](./accessibility.md) — Guide on ARIA accessibility attributes, screen reader states, live regions, and focus/blur event handling.
 
 
   * `dom-events.js` — Selecting HTML nodes, modifying element styles, and handling user triggers (clicks, inputs).
