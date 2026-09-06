@@ -36,6 +36,12 @@ This repository is structured into logical modules tracking my progress through 
 
 ### 🔹 Module 4: Intermediate & Advanced Programming Concepts
 *Transitioning into cleaner architectures, logic debugging, and asynchronous workflows.*
+
+* [debugging.md](./debugging.md) — Guide on JavaScript error types, exception handling (`try...catch...finally`), and debugging tools (`debugger`, `console.table()`).
+
+
+
+
 * **Folder/File Name:** `04-advanced-concepts/`
   * `debugging.js` — Identifying code syntax errors, managing exceptions, and tracking runtime bugs.
   * `higher-order-callbacks.js` — Passing functions as arguments and mastering array iteration methods (`map`, `filter`, `reduce`).
