@@ -51,6 +51,10 @@ This repository is structured into logical modules tracking my progress through 
 
 ### 🔹 Module 5: Algorithms, Recursion & Complex Logic
 *Advanced problem-solving mechanisms, pattern matching, and complex computer science structures.*
+
+* [basic-regex.md](./basic-regex.md) — Comprehensive guide on regular expression patterns, methods, flags, lookarounds, quantifiers, and capturing groups.
+
+
 * **Folder/File Name:** `05-algorithms-and-logic/`
   * `basic-regex.js` — Constructing Regular Expression patterns for complex data searching and character validation.
   * `recursion.js` — Solving complex repetitive problems by executing self-referencing logical loops.
