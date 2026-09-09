@@ -20,15 +20,17 @@ This repository is structured into logical modules tracking my progress through 
   * [Higher-order-functions.md](Higher-order-functions.md) - Mastering callback functions, higher-order array methods (`map`, `filter`, `reduce`), method chaining, sorting, and test methods (`every`, `some`). 
   * [Arrays.md](./Arrays.md) — Managing ordered lists, basic indexing, and fundamental array manipulation.
   * [Objects.md](./Objects.md) — Structuring data using key-value pairs, accessing properties, and method definitions.
-  * * [dates.md](./dates.md) — Guide on working with the Date object, epoch time, getter methods, and ISO/locale formatting.
-  * `maps-sets.js` — Working with advanced modern collections for unique values and keyed data.
+  * * [dates.md](./dates.md) — A concise reference guide covering JavaScript `Date` objects, Unix epoch time, getter methods, and date formatting options.
+   
+
+
 
 ### 🔹 Module 3: DOM Manipulation & Web APIs
 *Connecting JavaScript with the browser UI to create interactive structures.*
 
-* [dom-manipulation-and-apis.md](./dom-manipulation-and-apis.md) — Comprehensive guide on selectors, node modifications, event listeners, bubbling, animation APIs, timers, and modals.
-* * [accessibility.md](./accessibility.md) — Guide on ARIA accessibility attributes, screen reader states, live regions, and focus/blur event handling.
-  * * [form-validation.md](./form-validation.md) — Guide on the Constraint Validation API, custom validity states, event prevention, and form submission mechanics.
+* [dom-manipulation-and-apis.md](./dom-manipulation-and-apis.md) — A concise reference guide covering DOM selectors, node manipulation, event handling, timers, animations, Canvas API, and modal dialogs.
+* * [accessibility.md](./accessibility.md) — A concise reference guide covering common ARIA attributes, live regions, contenteditable regions, and focus/blur event handling.
+  * * [form-validation.md](./form-validation.md) — A concise reference guide covering the Constraint Validation API, input validity states, event prevention, and form submission attributes.
 
 
   * `dom-events.js` — Selecting HTML nodes, modifying element styles, and handling user triggers (clicks, inputs).
@@ -39,7 +41,7 @@ This repository is structured into logical modules tracking my progress through 
 ### 🔹 Module 4: Intermediate & Advanced Programming Concepts
 *Transitioning into cleaner architectures, logic debugging, and asynchronous workflows.*
 
-* [debugging.md](./debugging.md) — Guide on JavaScript error types, exception handling (`try...catch...finally`), and debugging tools (`debugger`, `console.table()`).
+* [debugging.md](./debugging.md) — A concise reference guide covering JavaScript error types, exception handling via `try...catch...finally`, and advanced debugging tools.
 
 
 
@@ -54,7 +56,7 @@ This repository is structured into logical modules tracking my progress through 
 ### 🔹 Module 5: Algorithms, Recursion & Complex Logic
 *Advanced problem-solving mechanisms, pattern matching, and complex computer science structures.*
 
-* [basic-regex.md](./basic-regex.md) — Comprehensive guide on regular expression patterns, methods, flags, lookarounds, quantifiers, and capturing groups.
+* [basic-regex.md](./basic-regex.md) — A concise reference guide covering JavaScript Regular Expressions, flags, character classes, assertions, quantifiers, and capturing groups.
 
 
 * **Folder/File Name:** `05-algorithms-and-logic/`
