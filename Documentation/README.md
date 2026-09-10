@@ -31,7 +31,7 @@ This repository is structured into logical modules tracking my progress through 
 * [dom-manipulation-and-apis.md](./dom-manipulation-and-apis.md) — A concise reference guide covering DOM selectors, node manipulation, event handling, timers, animations, Canvas API, and modal dialogs.
 * * [accessibility.md](./accessibility.md) — A concise reference guide covering common ARIA attributes, live regions, contenteditable regions, and focus/blur event handling.
   * * [form-validation.md](./form-validation.md) — A concise reference guide covering the Constraint Validation API, input validity states, event prevention, and form submission attributes.
-
+* [audio-video.md](./audio-video.md) — Guide on the Audio constructor, MIME types, codecs, and advanced browser media, screen capture, and Web Audio APIs.
 
   * `dom-events.js` — Selecting HTML nodes, modifying element styles, and handling user triggers (clicks, inputs).
   * `accessibility.js` — Ensuring script-driven UI components remain keyboard-navigable and screen-reader friendly.
