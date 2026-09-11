@@ -20,7 +20,8 @@ This repository is structured into logical modules tracking my progress through 
   * [Higher-order-functions.md](Higher-order-functions.md) - Mastering callback functions, higher-order array methods (`map`, `filter`, `reduce`), method chaining, sorting, and test methods (`every`, `some`). 
   * [Arrays.md](./Arrays.md) — Managing ordered lists, basic indexing, and fundamental array manipulation.
   * [Objects.md](./Objects.md) — Structuring data using key-value pairs, accessing properties, and method definitions.
-  * * [dates.md](./dates.md) — A concise reference guide covering JavaScript `Date` objects, Unix epoch time, getter methods, and date formatting options.
+  *  [dates.md](./dates.md) — A concise reference guide covering JavaScript `Date` objects, Unix epoch time, getter methods, and date formatting options.
+    * [maps-sets.md](./maps-sets.md) — Comprehensive guide on Sets, WeakSets, Maps, WeakMaps, and memory-efficient data collection methods.
    
 
 
