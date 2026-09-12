@@ -33,6 +33,7 @@ This repository is structured into logical modules tracking my progress through 
 * * [accessibility.md](./accessibility.md) — A concise reference guide covering common ARIA attributes, live regions, contenteditable regions, and focus/blur event handling.
   * * [form-validation.md](./form-validation.md) — A concise reference guide covering the Constraint Validation API, input validity states, event prevention, and form submission attributes.
 * [audio-video.md](./audio-video.md) — Guide on the Audio constructor, MIME types, codecs, and advanced browser media, screen capture, and Web Audio APIs.
+*  [localstorage-crud.md](./localstorage-crud.md) — Guide on persistent storage, CRUD workflows, Web Storage API, cookies, Cache API, IndexedDB, and storage security.
 
   * `dom-events.js` — Selecting HTML nodes, modifying element styles, and handling user triggers (clicks, inputs).
   * `accessibility.js` — Ensuring script-driven UI components remain keyboard-navigable and screen-reader friendly.
