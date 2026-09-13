@@ -21,7 +21,7 @@ This repository is structured into logical modules tracking my progress through 
   * [Arrays.md](./Arrays.md) — Managing ordered lists, basic indexing, and fundamental array manipulation.
   * [Objects.md](./Objects.md) — Structuring data using key-value pairs, accessing properties, and method definitions.
   *  [dates.md](./dates.md) — A concise reference guide covering JavaScript `Date` objects, Unix epoch time, getter methods, and date formatting options.
-    * [maps-sets.md](./maps-sets.md) — Comprehensive guide on Sets, WeakSets, Maps, WeakMaps, and memory-efficient data collection methods.
+  * [maps-sets.md](./maps-sets.md) — Comprehensive guide on Sets, WeakSets, Maps, WeakMaps, and memory-efficient data collection methods.
    
 
 
@@ -30,8 +30,8 @@ This repository is structured into logical modules tracking my progress through 
 *Connecting JavaScript with the browser UI to create interactive structures.*
 
 * [dom-manipulation-and-apis.md](./dom-manipulation-and-apis.md) — A concise reference guide covering DOM selectors, node manipulation, event handling, timers, animations, Canvas API, and modal dialogs.
-* * [accessibility.md](./accessibility.md) — A concise reference guide covering common ARIA attributes, live regions, contenteditable regions, and focus/blur event handling.
-  * * [form-validation.md](./form-validation.md) — A concise reference guide covering the Constraint Validation API, input validity states, event prevention, and form submission attributes.
+*  [accessibility.md](./accessibility.md) — A concise reference guide covering common ARIA attributes, live regions, contenteditable regions, and focus/blur event handling.
+  *  [form-validation.md](./form-validation.md) — A concise reference guide covering the Constraint Validation API, input validity states, event prevention, and form submission attributes.
 * [audio-video.md](./audio-video.md) — Guide on the Audio constructor, MIME types, codecs, and advanced browser media, screen capture, and Web Audio APIs.
 *  [localstorage-crud.md](./localstorage-crud.md) — Guide on persistent storage, CRUD workflows, Web Storage API, cookies, Cache API, IndexedDB, and storage security.
 
@@ -49,6 +49,13 @@ This repository is structured into logical modules tracking my progress through 
 
 
 * **Folder/File Name:** `04-advanced-concepts/`
+  
+* [classes-oop.md](./classes-oop.md) — Comprehensive guide on JavaScript classes, constructors, inheritance (`extends`/`super`), and static methods/properties.
+
+
+
+
+
   * `debugging.js` — Identifying code syntax errors, managing exceptions, and tracking runtime bugs.
   * `higher-order-callbacks.js` — Passing functions as arguments and mastering array iteration methods (`map`, `filter`, `reduce`).
   * `classes-oop.js` — Implementing Object-Oriented Programming, blueprints, inheritance, and constructors.
