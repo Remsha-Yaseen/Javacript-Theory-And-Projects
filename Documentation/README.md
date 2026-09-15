@@ -70,6 +70,8 @@ This repository is structured into logical modules tracking my progress through 
 
 * [basic-regex.md](./basic-regex.md) — A concise reference guide covering JavaScript Regular Expressions, flags, character classes, assertions, quantifiers, and capturing groups.
 
+* [data-structures-and-big-o.md](./data-structures-and-big-o.md) — Comprehensive guide on Big O notation, algorithmic complexities, and fundamental data structures (Arrays, Stacks, Queues, Linked Lists).
+
 
 * **Folder/File Name:** `05-algorithms-and-logic/`
   * `basic-regex.js` — Constructing Regular Expression patterns for complex data searching and character validation.
