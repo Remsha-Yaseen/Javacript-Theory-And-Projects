@@ -72,6 +72,9 @@ This repository is structured into logical modules tracking my progress through 
 
 * [data-structures-and-big-o.md](./data-structures-and-big-o.md) — Comprehensive guide on Big O notation, algorithmic complexities, and fundamental data structures (Arrays, Stacks, Queues, Linked Lists).
 
+  
+  * [searching-and-sorting.md](./searching-and-sorting.md) — Comprehensive guide on linear and binary search, divide-and-conquer strategies, and merge sort complexity.
+
 
 * **Folder/File Name:** `05-algorithms-and-logic/`
   * `basic-regex.js` — Constructing Regular Expression patterns for complex data searching and character validation.
