@@ -1,6 +1,6 @@
 
 # Graphs & Trees
-
+---------
 
 ## 1. Graphs Overview & Representations
 * **Graph Definition**: A network of nodes (vertices) connected by edges.
