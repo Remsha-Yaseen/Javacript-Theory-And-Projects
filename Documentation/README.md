@@ -77,6 +77,9 @@ This repository is structured into logical modules tracking my progress through 
 
   * [graphs-and-trees.md](./graphs-and-trees.md) — Comprehensive guide on graph structures, BFS/DFS traversals, trees, BSTs, tries, priority queues, and heaps.
 
+    
+  * [dynamic-programming.md](./dynamic-programming.md) — Comprehensive guide on dynamic programming principles, memoization (top-down), tabulation (bottom-up), and optimization scenarios.
+
 
 * **Folder/File Name:** `05-algorithms-and-logic/`
   * `basic-regex.js` — Constructing Regular Expression patterns for complex data searching and character validation.
