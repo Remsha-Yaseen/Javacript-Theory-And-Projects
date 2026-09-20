@@ -1,7 +1,6 @@
-* **File Description**: A concise reference guide covering dynamic programming principles, overlapping subproblems, memoization, tabulation, and real-world applicat
-# File Naming Suggestion
-* **Suggested File Name**: `dynamic-
-# Dynamic Programming Keynotes
+
+# Dynamic Programming
+--------
 
 ## 1. Core Principles
 * **Definition**: An algorithmic technique that solves complex problems by breaking them down into simpler subproblems and storing results to avoid redundant calculations.
@@ -9,7 +8,7 @@
 * **Optimal Substructure**: The optimal solution to a problem contains optimal solutions to its subproblems, allowing complex solutions to be built from smaller optimized parts.
 
 ## 2. Implementation Approaches
-* **Memoization (Top-Down)**: 
+* **Memoization (Top-Down)*
   * Caches expensive function call results using a lookup structure.
   * Recursively evaluates from the top down, returning cached values when inputs repeat.
 * **Tabulation (Bottom-Up)**: 
