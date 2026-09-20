@@ -1,5 +1,5 @@
 
-# Dynamic Programming Keynotes
+# Dynamic Programming
 
 --------
 
