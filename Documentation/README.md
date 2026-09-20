@@ -79,8 +79,7 @@ This repository is structured into logical modules tracking my progress through 
 
     
   * [dynamic-programming.md](./dynamic-programming.md) — Comprehensive guide on dynamic programming principles, memoization (top-down), tabulation (bottom-up), and optimization scenarios.
-
-* [dynamic-programming.md](./dynamic-programming.md) — Comprehensive guide on dynamic programming principles, memoization (top-down), tabulation (bottom-up), and optimization use cases.
+ 
 
 
 * **Folder/File Name:** `05-algorithms-and-logic/`
