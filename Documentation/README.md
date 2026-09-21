@@ -52,7 +52,7 @@ This repository is structured into logical modules tracking my progress through 
   
 * [classes-oop.md](./classes-oop.md) — Comprehensive guide on JavaScript classes, constructors, inheritance (`extends`/`super`), and static methods/properties.
 
-
+* [functional-programming.md](./functional-programming.md) — Guide on pure functions, side effects, functional programming paradigms, and currying techniques.
 
 
 
