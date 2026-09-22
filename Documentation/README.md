@@ -45,6 +45,8 @@ This repository is structured into logical modules tracking my progress through 
 
 * [debugging.md](./debugging.md) — A concise reference guide covering JavaScript error types, exception handling via `try...catch...finally`, and advanced debugging tools.
 
+   * [asynchronous-javascript.md](./asynchronous-javascript.md) — Comprehensive guide on asynchronous execution, the Fetch API, Promises, `async/await`, script attributes (`async`/`defer`), and browser APIs.
+
 
 
 
