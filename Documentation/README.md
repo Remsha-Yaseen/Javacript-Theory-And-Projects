@@ -41,7 +41,7 @@ This repository is structured into logical modules tracking my progress through 
 
 * [debugging.md](./debugging.md) — A concise reference guide covering JavaScript error types, exception handling via `try...catch...finally`, and advanced debugging tools.
 
-   * [asynchronous-javascript.md](./asynchronous-javascript.md) — Comprehensive guide on asynchronous execution, the Fetch API, Promises, `async/await`, script attributes (`async`/`defer`), and browser APIs.
+* [asynchronous-javascript.md](./asynchronous-javascript.md) — Comprehensive guide on asynchronous execution, the Fetch API, Promises, `async/await`, script attributes (`async`/`defer`), and browser APIs.
 
   
 * [classes-oop.md](./classes-oop.md) — Comprehensive guide on JavaScript classes, constructors, inheritance (`extends`/`super`), and static methods/properties.
@@ -59,12 +59,12 @@ This repository is structured into logical modules tracking my progress through 
 * [data-structures-and-big-o.md](./data-structures-and-big-o.md) — Comprehensive guide on Big O notation, algorithmic complexities, and fundamental data structures (Arrays, Stacks, Queues, Linked Lists).
 
   
-  * [searching-and-sorting.md](./searching-and-sorting.md) — Comprehensive guide on linear and binary search, divide-and-conquer strategies, and merge sort complexity.
+* [searching-and-sorting.md](./searching-and-sorting.md) — Comprehensive guide on linear and binary search, divide-and-conquer strategies, and merge sort complexity.
 
-  * [graphs-and-trees.md](./graphs-and-trees.md) — Comprehensive guide on graph structures, BFS/DFS traversals, trees, BSTs, tries, priority queues, and heaps.
+ * [graphs-and-trees.md](./graphs-and-trees.md) — Comprehensive guide on graph structures, BFS/DFS traversals, trees, BSTs, tries, priority queues, and heaps.
 
     
-  * [dynamic-programming.md](./dynamic-programming.md) — Comprehensive guide on dynamic programming principles, memoization (top-down), tabulation (bottom-up), and optimization scenarios.
+ * [dynamic-programming.md](./dynamic-programming.md) — Comprehensive guide on dynamic programming principles, memoization (top-down), tabulation (bottom-up), and optimization scenarios.
  
 
 ---
