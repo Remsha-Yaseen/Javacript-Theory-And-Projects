@@ -80,4 +80,3 @@ These standalone milestone applications showcase the collective practical applic
 5. **`05-bank-account-manager/`** — Engineered during the *Classes* module to run a secure programmatic account manager simulation.
 6. **`06-weather-app/`** — Developed during the *Asynchronous JS* stage to process exterior API data payloads inside a clean dashboard interface......
 
-7. 
