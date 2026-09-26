@@ -35,11 +35,7 @@ This repository is structured into logical modules tracking my progress through 
 * [audio-video.md](./audio-video.md) — Guide on the Audio constructor, MIME types, codecs, and advanced browser media, screen capture, and Web Audio APIs.
 *  [localstorage-crud.md](./localstorage-crud.md) — Guide on persistent storage, CRUD workflows, Web Storage API, cookies, Cache API, IndexedDB, and storage security.
 
-  * `dom-events.js` — Selecting HTML nodes, modifying element styles, and handling user triggers (clicks, inputs).
-  * `accessibility.js` — Ensuring script-driven UI components remain keyboard-navigable and screen-reader friendly.
-  * `audio-video-events.js` — Controlling media elements dynamically through background scripts and events.
-  * `localstorage-crud.js` — Saving, reading, updating, and deleting persistent user data inside the browser session.
-
+  
 ### 🔹 Module 4: Intermediate & Advanced Programming Concepts
 *Transitioning into cleaner architectures, logic debugging, and asynchronous workflows.*
 
@@ -47,22 +43,10 @@ This repository is structured into logical modules tracking my progress through 
 
    * [asynchronous-javascript.md](./asynchronous-javascript.md) — Comprehensive guide on asynchronous execution, the Fetch API, Promises, `async/await`, script attributes (`async`/`defer`), and browser APIs.
 
-
-
-
-* **Folder/File Name:** `04-advanced-concepts/`
   
 * [classes-oop.md](./classes-oop.md) — Comprehensive guide on JavaScript classes, constructors, inheritance (`extends`/`super`), and static methods/properties.
 
 * [functional-programming.md](./functional-programming.md) — Guide on pure functions, side effects, functional programming paradigms, and currying techniques.
-
-
-
-  * `debugging.js` — Identifying code syntax errors, managing exceptions, and tracking runtime bugs.
-  * `higher-order-callbacks.js` — Passing functions as arguments and mastering array iteration methods (`map`, `filter`, `reduce`).
-  * `classes-oop.js` — Implementing Object-Oriented Programming, blueprints, inheritance, and constructors.
-  * `functional-programming.js` — Writing pure functions, avoiding data mutations, and maintaining predictable states.
-  * `asynchronous-js.js` — Handling delayed execution processes using Promises, APIs, and modern `async/await` syntax.
 
 ### 🔹 Module 5: Algorithms, Recursion & Complex Logic
 *Advanced problem-solving mechanisms, pattern matching, and complex computer science structures.*
@@ -82,15 +66,6 @@ This repository is structured into logical modules tracking my progress through 
     
   * [dynamic-programming.md](./dynamic-programming.md) — Comprehensive guide on dynamic programming principles, memoization (top-down), tabulation (bottom-up), and optimization scenarios.
  
-
-
-* **Folder/File Name:** `05-algorithms-and-logic/`
-  * `basic-regex.js` — Constructing Regular Expression patterns for complex data searching and character validation.
-  * `recursion.js` — Solving complex repetitive problems by executing self-referencing logical loops.
-  * `data-structures-deep.js` — Custom data organization techniques, handling custom matrices, and memory structures.
-  * `algorithms.js` — Creating optimal step-by-step sorting, searching, and computation algorithms.
-  * `graphs-trees.js` — Mapping non-linear data structures using node-based parent-child hierarchies.
-  * `dynamic-programming.js` — Optimizing mathematical and logical problems by breaking them down into simpler, overlapping sub-problems.
 
 ---
 
